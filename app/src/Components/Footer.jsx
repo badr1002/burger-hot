@@ -6,7 +6,7 @@ class Footer extends Component {
             <React.Fragment>
                 <footer id="footer">
                     <div className="container">
-                        <h3>Delicious</h3>
+                        <h3>Burger-hot</h3>
                         <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe
                             commodi placeat.</p>
                         <div className="social-links">
@@ -27,7 +27,7 @@ class Footer extends Component {
                             </a>
                         </div>
                         <div className="copyright">
-                            &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+                            &copy; Copyright <strong><span>Burger-hot</span></strong>. All Rights Reserved
                         </div>
 
                     </div>
