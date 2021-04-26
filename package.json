@@ -1,0 +1,48 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Restaurant",
+  "main": "server.js",
+  "engines": {
+    "node": "15.14.0",
+    "npm": "7.7.6"
+  },"start_url": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd app && npm install && npm run build",
+    "start": "nodemon server.js "
+  },
+  "author": "Badr",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "helmet": "^4.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-pg-migrate": "^5.9.0",
+    "nodemailer": "^6.5.0",
+    "pg": "^8.6.0",
+    "serve-index": "^1.9.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "express-pino-logger": "^6.0.0",
+    "node-env-run": "^4.0.2",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "pino-colada": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badr1002/restaurant"
+  },
+  "homepage": "https://badr1002.github.io/restaurant",
+  "keywords": [
+    "server"
+  ]
+}
