@@ -111,12 +111,12 @@ app.post('/register/:email', async (req, res) => {
         res.json(0)
     } else {
         let hashPassword = bcrypt.hashSync(req.body.password, 10);
-        const sql = `insert into users (firstname,lastname,email,mobile,password,isAdmin)
+        const sql = `insert into users (firstname,lastname,email,mobile,password)
           select '${req.body.firstname}',
           '${req.body.lastname}',
            '${req.body.email}',
            ${req.body.mobile},
-            '${hashPassword}',true WHERE not exists (select * from users where email = '${req.params.email}' )`;
+            '${hashPassword}' WHERE not exists (select * from users where email = '${req.params.email}' )`;
         try {
             await client.query(sql) && res.json("Successfully Addition!");
         } catch (err) {
