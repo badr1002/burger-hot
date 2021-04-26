@@ -83,7 +83,7 @@ class Contact extends Component {
                                 <div className="col-lg-3 col-md-6 info">
                                     <i className="bi bi-geo-alt"/>
                                     <h4>Location:</h4>
-                                    <p>A108 Adam Street<br/>New York, NY 535022</p>
+                                    <p>Salah salem Street<br/>Cairo</p>
                                 </div>
 
                                 <div className="col-lg-3 col-md-6 info mt-4 mt-lg-0">
