@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "cd app && npm install && npm run build",
-    "start": "nodemon server.js "
+    "start": "node server.js "
   },
   "author": "Badr",
   "license": "ISC",
