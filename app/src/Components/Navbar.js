@@ -67,7 +67,7 @@ class Navbar extends Component {
                        <div className='brand'>
                          <h1 className="brand me-auto">
                             <NavLink to="/home">
-                                Delicious
+                                Burger-hot
                             </NavLink>
                         </h1>
                        </div>
