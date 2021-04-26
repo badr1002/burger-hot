@@ -95,13 +95,13 @@ class Contact extends Component {
                                 <div className="col-lg-3 col-md-6 info mt-4 mt-lg-0">
                                     <i className="bi bi-envelope"/>
                                     <h4>Email:</h4>
-                                    <p>info@example.com<br/>contact@example.com</p>
+                                    <p>badrhelal1254@gmail.com</p>
                                 </div>
 
                                 <div className="col-lg-3 col-md-6 info mt-4 mt-lg-0">
                                     <i className="bi bi-phone"/>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 51<br/>+1 5589 22475 14</p>
+                                    <p>+201553060232<br/>+20110334675</p>
                                 </div>
                             </div>
                         </div>
