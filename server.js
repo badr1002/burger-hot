@@ -7,11 +7,11 @@ const jwt = require('jsonwebtoken');
 const authJwt = require('./helpers/jwt.js')
 var nodemailer = require('nodemailer');
 const path = require('path');
-const helmet = require('helmet');
+//const helmet = require('helmet');
 
 const app = express();
 app.use(express.json()); 
-app.use(helmet());
+//app.use(helmet());
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -40,7 +40,7 @@ if (process.env.NODE_ENV === 'production') {
    app.use('/',express.static(path.join(__dirname, 'app/build')));
 }
 
-//app.use('/',express.static(path.join(__dirname, 'app/build')));
+app.use('/',express.static(path.join(__dirname, 'app/build')));
 
 // Get database
 app.get('/products', async (req, res) => {
