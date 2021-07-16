@@ -184,7 +184,7 @@ app.post('/contact', (req, res) => {
 
     var mailOptions = {
          from: `'${req.body.name}' <${req.body.email}>`,
-        to: 'baderhelal1254@gmail.com',
+        to: 'badrhelal1254@gmail.com',
         subject: `${req.body.sub}`,
         text: `${req.body.message}`,
         html: `<b>${req.body.message}</b>`,
